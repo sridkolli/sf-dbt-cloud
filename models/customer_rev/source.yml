@@ -1,0 +1,14 @@
+sources:
+  - name: landing
+    database: OUR_FIRST_DB
+    schema: DBT_SCHEMA
+
+    tables:
+      - name: customers
+        identifier: customers
+      - name: orders
+        identifier: orders
+      - name: orderitems
+        identifier: orderitems
+      - name: employees
+        identifier: employees
